@@ -40,3 +40,4 @@ augroup vimrc
 augroup END
 
 nnoremap <Leader>ev :e ~/.vimrc<CR>/
+nnoremap q: <Nop>
