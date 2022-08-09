@@ -38,3 +38,5 @@ augroup vimrc
     autocmd!
     autocmd FileType vim setlocal keywordprg=:help
 augroup END
+
+nnoremap <Leader>ev :e ~/.vimrc<CR>/
