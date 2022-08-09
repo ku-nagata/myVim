@@ -9,6 +9,8 @@
 1. .vimrc(設定ファイル)と.vim(プラグインディレクトリ)のシンボリックリンク作成
 
    ```
+   $ git submodule init
+   $ git submodule update
    $ ln -s [本リポジトリのルートデ ィレクトリ絶対パス]/.vimrc ~/.vimrc
    $ ln -s [本リポジトリのルートデ ィレクトリ絶対パス]/.gvimrc ~/.gvimrc
    $ ln -s [本リポジトリのルートデ ィレクトリ絶対パス]/.vim ~/.vim
